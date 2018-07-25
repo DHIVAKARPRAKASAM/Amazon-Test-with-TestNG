@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon test automation suite">
+<listeners>
+		<listener class-name="com.qa.extentReportListener.ExtentreportListener" />	
+</listeners>
+
+
+<test name="different pages test">
+
+<classes>
+    <class name="com.amazon.qa.testcases.LoginTestCase"/>
+    <class name="com.amazon.qa.testcases.SignInTestCase"/>
+	<class name="com.amazon.qa.testcases.HomePageTsetCase"/>
+	<class name="com.amazon.qa.testcases.AmazonUserPageTestCase"/>
+	<class name="com.amazon.qa.testcases.TodaysDealPageTestCase"/>
+	<class name="com.amazon.qa.testcases.AmazonPayPageTestcase"/>
+</classes>
+
+
+</test>
+</suite>
